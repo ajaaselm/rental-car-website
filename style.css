@@ -11,14 +11,9 @@ header{
     justify-content: space-around;
     padding: 20px 100px;
     background: white;
-    background-color: lightskyblue;
+    background-color: #90a9d1;
 }
-.logo{
-    color: grey;
-    font-weight: 900;
-    font-size: 25px;
-    margin-left: 20px;
-}
+
 .navbar{
     display: flex;
 }
@@ -47,11 +42,11 @@ header{
 }
 .home{
     display: grid;
-    background: gold;
+    background: #c3d2eb;
     align-items: center;
 }
 .text h1{
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -62,6 +57,12 @@ header{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+}
+.text li{
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:left;
 }
 
 .image {
@@ -98,9 +99,6 @@ th, td {
     color: #555;
 }
 
-/* tr td img{
-    border: 2px solid red;
-} */
 
 .first-image{
     margin-bottom: 20px;
@@ -108,102 +106,7 @@ th, td {
 section{
     padding: 75px 100px;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 100px;
-    background: white;
-    background-color: lightskyblue;
-}
-.logo{
-    color: grey;
-    font-weight: 900;
-    font-size: 25px;
-    margin-left: 20px;
-}
-.navbar{
-    display: flex;
-}
-.navbar li{
-    position: relative;
-    list-style-type: none;
-}
-.navbar a{
-    font-size: 1rem;
-    color: grey;
-    font-weight: 800;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 22px;
-}
-.book{
-    padding: 15px 20px;
-    color: white;
-    background-color: black;
-    font-weight: 500;
-    border-radius: 10%;
-    text-decoration: none;
-}
-.book:hover{
-    transform: scale(1.2);
-}
-.home{
-    display: grid;
-    background: gold;
-    align-items: center;
-}
-.text h1{
-    font-size: 3rem;
-    letter-spacing: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.text p{
-    font-size: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
 
-.image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 42%;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-}
-
-table, th, td {
-    border: 3px solid grey;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-.book2{
-    padding: 7px 11px;
-    color: white;
-    background-color: black;
-    font-weight: 500;
-    border-radius: 10%;
-    text-decoration: none;
-    margin: auto;
-}
-.image-caption{
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
-}
 
 
 .first-image{
@@ -211,16 +114,16 @@ th, td {
 }
 
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
   }
-  
+ 
 
   input[type=submit] {
     background-color: #04AA6D;
@@ -234,11 +137,10 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+ 
 
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
-  
