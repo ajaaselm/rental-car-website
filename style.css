@@ -144,3 +144,6 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  html {
+    scroll-behavior: smooth;
+  }
