@@ -9,18 +9,16 @@
 <body>
     <header>
         <img src="https://static.vecteezy.com/system/resources/previews/013/923/543/original/blue-car-logo-png.png" alt="Incoming Rent a Car" width="150px" height="100px"/>
-        <!-- plz provoni me bo si me teleport to a part of a page se spo di -->
-        <ul class="navbar">
-            <li><a href="home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="cars">Cars</a></li>
-            <li><a href="service">Services</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><id="cars"><a href="#cars">Cars</a></li>
+            <li><id="service"><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#" class="book">Book ride</a>
+        <id="book" class="book">Book ride</a>
     </header>
     <section class="home">
 
-        <section class="text">
+        <section class="text" id="home">
             <h1>Welcome to Incoming Rent a Car</h1>
             <p>Your trusted partner for rental cars! Our mission is to provide you with a seamless and convenient car rental experience, ensuring you get the best service at the most competitive prices.</p>
         </section>
@@ -30,7 +28,7 @@
             <p>Incoming Rent a Car is a leading online rental car service provider, connecting travelers with top-notch vehicles from trusted suppliers around the world. Established in 1996, we have since grown to become a global platform with a commitment to delivering high-quality services and unbeatable value to our customers.</p>
         </section>
 
-        <section class="text">
+        <section class="text" id="about">
             <h1>What We Offer</h1>
             <ul>
                 <li><strong>Wide Selection:</strong> We offer a vast range of vehicles, from compact cars to luxury SUVs, catering to various preferences and budgets.</li>
@@ -46,14 +44,15 @@
             <p>At Incoming Rent a Car, we believe in creating memorable travel experiences by offering reliable, affordable, and efficient rental car services. Our vision is to be the go-to platform for all your car rental needs, wherever your journey takes you.</p>
         </section>
 
-        <section class="text">
+        <section class="text" id="">
             <h1>Get in Touch</h1>
             <p>We value your feedback and are always here to help. If you have any questions, comments, or concerns, please don't hesitate to reach out to us at <a href="mailto:info@Incoming.com">info@Incoming.com</a>.</p>
         </section>
 
         <br>
         <h2>Some of the cars you can ride:</h2>
-        <table border="1">
+        <table border="1" >
+            <section class="cars" id="cars">
             <tr>
                 <td>
                     <img class="first-image" src="mini-cooper-14-removebg-preview.png" alt="mini-cooper-14-removebg-preview">
@@ -82,7 +81,7 @@
 
         <br>
         <h1>BOOK A CAR TODAY!</h1>
-        <div class="container">
+        <div class="container" id="contact"></section>>
             <form id="contactForm">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
